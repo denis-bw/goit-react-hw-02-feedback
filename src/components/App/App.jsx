@@ -3,7 +3,8 @@ import {Statistics} from '../Statistics/Statistics'
 import {FeedbackOptions} from '../FeedbackOptions/FeedbackOptions'
 import { Section } from '../Section/Section'
 import { Notification } from '../Notification/Notification'
-import {ContainerFeedback} from './App.styled'
+import { ContainerFeedback } from './App.styled'
+
 
 export default class App extends Component {
   
@@ -60,4 +61,7 @@ export default class App extends Component {
     );
   }
 }
+
+
+
 
