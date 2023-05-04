@@ -1,7 +1,10 @@
+import {BTNfeedback,ContainetButonsFeedback} from './FeedbackOptions.styled'
+
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     
-    return options.map(option => {
-            return (<button key={option} onClick={onLeaveFeedback}>{option}</button>);
+    const marcupButons = options.map(option => {
+            return (<BTNfeedback key={option} onClick={onLeaveFeedback}>{option}</BTNfeedback>);
     });
     
+    return <ContainetButonsFeedback>{marcupButons}</ContainetButonsFeedback>
 }
